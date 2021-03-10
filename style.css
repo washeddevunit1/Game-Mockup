@@ -77,10 +77,11 @@ height: 91px;}
 .copyright {
   color: #A5A5A5;
   font-weight: 500;
+  font-size: 2rem;
 }
 
 .footer {
-  line-height: 1rem;
+  line-height: 2rem;
   bottom: 0;
 }
 
