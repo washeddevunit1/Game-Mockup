@@ -1,3 +1,8 @@
+/** 
+    This code only looks like this becaues I'm still learning. 
+    I am sure there is tons of code documentation of Tailwind that I'm missing that I just haven't
+    thought of looking yet. I imagine what will happen is that I will come back to this project and just totally clean up the code and switch it more and more tailwind based.
+**/
 /** MAIN STYLES **/
 body {
   background-color: #111111;
@@ -41,7 +46,6 @@ a:hover, a:active {
   background-image:url("https://i.imgur.com/JqP1lNm.png");
   background-size: contain;
    background-repeat: no-repeat;
-   height: 35vh;
 }
 
 ul {
