@@ -16,7 +16,7 @@ font-family: 'Roboto', sans-serif;
 
 a {    color: #ffffff;
     text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 a:hover, a:active {
@@ -45,7 +45,7 @@ a:hover, a:active {
 }
 
 ul {
-  line-height: 3rem;
+  line-height: 6rem;
 }
 
 /** GRADIENT - START **/
