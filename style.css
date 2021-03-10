@@ -1,0 +1,97 @@
+/** MAIN STYLES **/
+body {
+  background-color: #111111;
+}
+
+h1, h2, h3, h4, h5, h6, span, p, div, a, ul, ol, li {
+font-family: 'Roboto', sans-serif;
+}
+
+  h1 {
+  -webkit-text-stroke: .65px white;
+  font-weight: 900;
+  color: #111111;
+  text-transform: uppercase;
+}
+
+a {    color: #ffffff;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+  color: #1947E5;
+}
+
+.main-menu {
+    -webkit-text-stroke: .65px #1947E5;
+}
+
+.start-btn {
+  color:#DCEF00;
+}
+
+.special-char {
+  color: #ffffff;
+  font-weight: 900;;
+  font-size: 110px;
+}
+
+.img-splash {
+  background-image:url("https://i.imgur.com/JqP1lNm.png");
+  background-size: contain;
+  height:285px;
+  width:319px;
+}
+
+ul {
+  line-height: 3rem;
+}
+
+/** GRADIENT - START **/
+.gradient-lineup {
+  width: 319px;
+}
+
+.gradient-1 {
+  background: rgb(221,24,24);
+  background: linear-gradient(90deg, rgba(221,24,24,1) 0%, rgba(51,51,51,1) 100%);
+width: 110px;
+height: 91px;
+}
+
+.gradient-2 {
+  background: rgb(227,93,91);
+  background: linear-gradient(90deg, rgba(227,93,91,1) 0%, rgba(229,57,53,1) 100%);
+width: 97px;
+height: 91px;
+}
+
+.gradient-3 {
+  background: rgb(19,80,88);
+  background: linear-gradient(90deg, rgba(19,80,88,1) 0%, rgba(241,242,181,1) 100%);
+width: 112px;
+height: 91px;}
+
+/** COPYRIGHT **/
+.copyright {
+  color: #A5A5A5;
+  font-weight: 500;
+}
+
+.footer {
+  line-height: 9px;
+  bottom: 0;
+}
+
+/** ANIMATIONS **/
+
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
