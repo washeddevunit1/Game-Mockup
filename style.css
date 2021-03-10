@@ -23,7 +23,7 @@ a:hover, a:active {
 }
 
 .main-menu {
-    -webkit-text-stroke: .65px #1947E5;
+    -webkit-text-stroke: 1px #1947E5;
 }
 
 .start-btn {
