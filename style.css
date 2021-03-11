@@ -69,6 +69,9 @@ height: 91px;
   background: linear-gradient(90deg, rgba(227,93,91,1) 0%, rgba(229,57,53,1) 100%);
 width: 100%;
 height: 91px;
+        background-size: 600% 100%;
+    animation: gradient 16s linear infinite;
+    animation-direction: alternate;
 }
 
 .gradient-3 {
@@ -76,6 +79,9 @@ height: 91px;
   background: linear-gradient(90deg, rgba(19,80,88,1) 0%, rgba(241,242,181,1) 100%);
 width: 100%;
 height: 91px;
+        background-size: 600% 100%;
+    animation: gradient 16s linear infinite;
+    animation-direction: alternate;
 }
 
 /** COPYRIGHT **/
